@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-hidden {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.string { color: #61b865; }
+.number { color: #4cd1e0; }
+.boolean { color: #d19a60; }
+.null { color: #ff616e; }
+.key { color: #c678dd; }
+
+.no-outline {
+    @apply outline-none focus:outline-none focus-within:outline-none;
+}

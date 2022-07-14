@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kassenbon-reader",
+  "private_key_id": "927e56c818851e8828b95beb5b782db4372ebcab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCungkwNri5dB/Y\n3lApfShU3QiSFlAlY5L6f5E2PsV+t2iwyVh5anI8xUAJNpklP0X4S5RyiwkxXQKE\nJ+bOWlXFXJyw/ic7uKGiGPrGlhBoZHBiASJZ3Ook+swp6D9KBkV2tfLk3DveYbEJ\nAWN832MGZ2ztg6sE9Lmmsw4yEILgY+pnD40mIcCFBsyJYUMhFQ3ad3DbqMmGgCAD\nZvDeFtGr+sGJnJXg28BnC9kW4VEuukev1hrtHEJ+0HtjF4aiwG87Lf6QbdAECs9k\nA0w8GoTagcJagrkIxoKgqzAD/jnva0k6rY7F4xTSebsNCuHs4MkTFTDY81TikTkt\ndHHosbqvAgMBAAECggEANISloNGkh2qstW5Pz9qrybJdBIsfec9UAnFhvF3uymjh\nXOKB8KqaRzrQQrUgJHq+UapxsG2uyyD9Q8A4g/HZgC2VlwopxKWIP5ehvR6fOraS\nsndC3KI77flcdHI8rsfqFoUs07aFbyIUu++l+4W4Y9GxilIimq/8Mm4CI/6hTllf\nTJlqu/S/HXVw+tkyj/Wzdp5XlYBEOqYG/jCLpJT+SR8bjb9PZ4b9hyoqv6D83zbj\nvm8WL48+rc0KQkp9PMRDDp3ZeWqB+noL3zwCbSwPcDcW/Aj+N1iM2pExSDsmRV4K\nv4mwqMtRKrSF4GvPzOXPkZf1af+lWIV46e4cAwhq6QKBgQDiC17AyVcxUmKu2ezG\nrkMrFr2DG11PTpQxhFrdxQjq5BXlUBFPNlNJ3xBEG2+0mq0HybjlU6jp3AVA1qWL\nJAc0fqcxQ8izk+INQNGkMdxzz4vf1ymNDEkEqL8iCCe0JovRVW+Lc6hPrt15lTnq\nUOdi5BODqS4AKfTYKpZNimrjWwKBgQDFwfw2n2y8SdEcz7oiOJsPMPSDcvfacfkh\nutXdwX8DSYt4Z0aBHN8Tu2EA+jNNovpJw+t1Yu+LU4H9jeCNdctmx3n0uf0IUgcJ\nrtNyv83EaXcExd8Y8SRa5nP8TVEongxqy98irh4eqa+m2bwAkxUseWFN/M5xndUn\nyEReaIgKPQKBgDx8sGlEN1nSYufJFuv/e6fPGP05WFm9fDhX43zOmdlJGXbYWxlo\nPxdYYmDnOpgIf97CowByx5N0tc8o4Pl/tZHdhl3PdqhfHTFQtAiM8yHmWtaWG99L\nd0qQ4Tx5FC7H1cg5ZXTaiSJxd4BuZyYFajVzNKmZnt6aW5NwqfGr5XhbAoGBALxF\nT1HNe57ShAPy+9kCnRTcXZ0bgj30zeM/1cY2Ji7CAMcTQ3s+Ol61wMdGbDtYkwJR\nRMRP+ZBiY1o6jXL/lzL1a/UCcJRQS6T7TRFs64A3i/j+TMSZJyxnRDsKfN63gUjX\naUrCC6jTkYe+uQ6u+LSLpoixyvU99yXVsslSqVldAoGBAJiii+K57QZijUDCSfuo\n32CoAlg836D7gvNLrpu9vDgNSymafcz79G9wNR585vHstZppMe/eN2V8gSNecnZs\nCQwBlEYzM/0QShWmTAwrOeIsDOfB5QmCSHF2PorbSnDtRTLJpGb1VwacnrVkneDg\nEYbUp7sXsIy/lbCMO6XKEygT\n-----END PRIVATE KEY-----\n",
+  "client_email": "elias-laptop@kassenbon-reader.iam.gserviceaccount.com",
+  "client_id": "106266909226155890426",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/elias-laptop%40kassenbon-reader.iam.gserviceaccount.com"
+}

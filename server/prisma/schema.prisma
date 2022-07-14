@@ -1,0 +1,76 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://parkapp:parkapp@localhost:5432/parkapp?schema=public"
+
+}
+
+model Location {
+  id            Int    @id @default(autoincrement())
+  name          String
+  address       String
+  city          String
+  postalCode    String
+  maxParkingMin Int
+}
+
+model Tatbestand {
+  id            Int     @id @default(autoincrement())
+  stornoErlaubt Boolean
+  description   String
+  price         Int     @default(value: 0)
+  stripePriceId String?
+}
+
+model Ticket {
+  id           Int      @id @default(autoincrement())
+  aktenzeichen Int
+  time         DateTime
+  licensePlate String
+  tatbestand   Int
+  address      String
+  city         String
+  postalCode   String
+  locationId   Int?
+  proofImage   String?
+  status       String   @default(value: "open")
+}
+
+model CancellationRequest {
+  id           Int      @id @default(autoincrement())
+  aktenzeichen Int
+  valid        Boolean
+  denialReason String
+  time         DateTime
+}
+
+model Log {
+  id           Int      @id @default(autoincrement())
+  time         DateTime @default(now())
+  event        String
+  aktenzeichen Int?
+  meta         String?
+  type         String
+}
+
+model Payment {
+  id                  Int       @id @default(autoincrement())
+  aktenzeichen        Int
+  amount              Int
+  stripePaymentId     String
+  amount_capturable   Int?
+  amount_received     Int?
+  canceled_at         DateTime?
+  cancellation_reason String?
+  capture_method      String?
+  currency            String?
+  customer            String?
+  description         String?
+  status              String    @default(value: "open") //open, review, cancellation_accepted, cancellation_failed, paid, payment_failed
+}
